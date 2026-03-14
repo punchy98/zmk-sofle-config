@@ -98,51 +98,51 @@
         
         Copy {
             bindings = <&kp LC(C)>;
-            key-positions = <38 39>;
+            key-positions = <42 43>;
         };
         Paste {
             bindings = <&kp LC(V)>;
-            key-positions = <40 39>;
+            key-positions = <43 44>;
         };
         Cut {
             bindings = <&kp LC(X)>;
-            key-positions = <38 40>;
+            key-positions = <42 44>;
         };
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <31 32>;
+            key-positions = <34 35>;
         };
         Lparen {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <37 38>;
+            key-positions = <41 42>;
         };
         Rparen {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <48 47>;
+            key-positions = <48 49>;
         };
         btclear {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <48 13>;
+            key-positions = <49 14>;
         };
         escape-combo {
             bindings = <&kp ESCAPE>;
-            key-positions = <28 27>;
+            key-positions = <28 29>;
         };
         dash {
             bindings = <&kp MINUS>;
-            key-positions = <45 46>;
+            key-positions = <47 48>;
         };
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <46 47>;
+            key-positions = <48 49>;
         };
         systemlayer {
             bindings = <&mo ADJUST>;
-            key-positions = <13 22>;
+            key-positions = <14 24>;
         };
         baselayer {
             bindings = <&to BASE>;
-            key-positions = <29 28>;
+            key-positions = <29 30>;
         };
     };
 
@@ -152,44 +152,44 @@
         default_layer {
             display-name = "default";
             bindings = <
-&kp GRAVE &kp N1 &kp N2   &kp N3   &kp N4    &kp N5                           &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &none
-&kp ESC   &kp Q  &kp W    &kp E    &kp R     &kp T                            &kp Y  &kp U     &kp I     &kp O    &kp P    &kp BSPC
-&kp TAB   &kp A  &kp S    &kp D    &kp F     &kp G                            &kp H  &kp J     &kp K     &kp L    &kp SEMI &kp SQT
-&kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B      &kp C_MUTE &none      &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-                 &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET    &kp SPACE  &mo RAISE  &kp RCTRL &kp RALT  &kp RGUI
+&kp GRAVE  &kp N1 &kp N2   &kp N3   &kp N4    &kp N5     &kp UP_ARROW     &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &none
+&kp ESC    &kp Q  &kp W    &kp E    &kp R     &kp T      &kp DOWN_ARROW   &kp Y  &kp U     &kp I     &kp O    &kp P    &kp BSPC
+&kp TAB    &kp A  &kp S    &kp D    &kp F     &kp G      &kp LEFT_ARROW   &kp H  &kp J     &kp K     &kp L    &kp SEMI &kp SQT
+&kp LSHFT  &kp Z  &kp X    &kp C    &kp V     &kp B      &kp RIGHT_ARROW  &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+&kp C_MUTE &none  &kp LGUI &kp LALT &kp LCTRL &mo LOWER  &kp RET          &kp SPACE  &mo RAISE &kp RCTRL &kp RALT  &kp RGUI
             >;
         };
 
         lower_layer {
             display-name = "lower";
             bindings = <
-&trans    &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                    &kp F6    &kp F7   &kp F8    &kp F9    &kp F10   &kp F11
-&kp GRAVE &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                    &kp N6    &kp N7   &kp N8    &kp N9    &kp N0    &kp F12
-&trans    &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                 &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR  &kp PIPE
-&trans    &kp EQUAL &kp MINUS &kp PLUS    &kp LBRC  &kp RBRC   &trans &trans  &kp LBKT  &kp RBKT &kp SEMI  &kp COLON &kp BSLH  &trans
-                    &trans    &trans      &trans    &trans     &trans &trans  &trans    &trans   &trans    &trans
+&trans     &kp F1    &kp F2    &kp F3      &kp F4    &kp F5      &trans   &kp F6    &kp F7   &kp F8    &kp F9    &kp F10   &kp F11
+&kp GRAVE  &kp N1    &kp N2    &kp N3      &kp N4    &kp N5      &trans   &kp N6    &kp N7   &kp N8    &kp N9    &kp N0    &kp F12
+&trans     &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT   &trans   &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR  &kp PIPE
+&trans     &kp EQUAL &kp MINUS &kp PLUS    &kp LBRC  &kp RBRC    &trans   &kp LBKT  &kp RBKT &kp SEMI  &kp COLON &kp BSLH  &trans
+&trans     &trans    &trans    &trans      &trans    &trans      &trans   &trans    &trans   &trans    &trans    &trans
             >;
         };
 
         raise_layer {
             display-name = "raise";
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &trans    &trans    &trans   &trans    &trans  &trans
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                        &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
-&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                      &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans        &trans  &trans  &trans    &trans    &trans   &trans    &trans  &trans
-                        &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans   &trans    &trans    &trans   &trans    &trans  &trans
+&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans         &trans   &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
+&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK       &trans   &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
+&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans         &trans   &trans    &trans    &trans   &trans    &trans  &trans
+&trans     &trans       &trans       &trans       &trans       &trans         &trans   &trans    &trans    &trans   &trans    &trans
             >;
         };
 
         adjust_layer {
             display-name = "adjust";
             bindings = <
-&bt BT_CLR        &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                            &none &none &none &none &none &none
-&ext_power EP_TOG &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF                         &none &none &none &none &none &none
-&none             &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none           &none           &none                                   &none &none &none &none &none &none
-&none             &none           &none           &none           &none           &none            &rgb_ug RGB_TOG &none  &none &none &none &none &none &none
-                                  &none           &none           &none           &none            &none           &none  &none &none &none &none
+&bt BT_CLR        &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &trans   &none &none &none &none &none &none
+&ext_power EP_TOG &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF   &trans   &none &none &none &none &none &none
+&none             &rgb_ug RGB_BRD &rgb_ug RGB_BRI &none           &none           &none             &trans   &none &none &none &none &none &none
+&none             &none           &none           &none           &none           &none             &trans   &rgb_ug RGB_TOG &none &none &none &none &none
+&none             &none           &none           &none           &none           &none             &none    &none &none &none &none &none
             >;
         };
     };
