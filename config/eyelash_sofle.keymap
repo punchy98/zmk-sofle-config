@@ -158,7 +158,8 @@
 &caps_word          &kp A             &kp S               &kp D             &lt NAV F          &kp G      &none            &kp H              &kp J                  &kp K               &kp L                      &kp SEMI                    &kp SQT
 &mt LSHFT LPAR      &kp Z             &kp X               &kp C             &kp V              &kp B      &none            &kp N              &kp M                  &kp COMMA           &kp DOT                    &kp FSLH                    &mt RSHFT RPAR
 //          --- EXTRAS --- --- THUMBS ---------------------------------------------------------                    --- THUMBS ----------------------------------------------------------- --- EXTRAS ---
-&none               &kp LGUI          &kp LALT            &kp LCTRL         &kp SPACE          &num_word NUM               &lt SYMBOLS END    &kp RET                &lt NAV DEL         &kp INS                    &kp DEL                     &none
+&none               &kp LGUI          &kp LALT            &kp LCTRL         &kp SPACE          &num_word NUM               &none    &lt SYMBOLS END            &kp ENTER        &kp INS          
+             &kp DEL                     &none
             >;
         };
         
